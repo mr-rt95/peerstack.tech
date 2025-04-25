@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+/* header start */
+
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+/* header_up start */
+.header_up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    padding: auto;
+}
+
+/* logo_header start */
+
+.logo_header {
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.l_cool {
+    color: #8b0000;
+}
+
+.l_logo {
+    color: #f8dbdb;
+}
+/* logo_header end */
+
+/* header_nav start */
+
+.header_nav {
+    margin: 12px 0px;
+}
+
+.header_nav a {
+    text-decoration: none;
+    padding: 8px 20px;
+    color: #ff0000;
+}
+
+.header_nav a:hover {
+    text-decoration: none;
+    padding: 8px 20px;
+    color: #f8dbdb;
+}
+/* header_nav end */
+/* header_up end */
+
+/* header_down start */
+
+.header_down {
+    padding: 18px;
+    width: 100%;
+    background-color: #ff0000;
+}
+
+.header_down h1 {
+    font-size: 32px;
+    margin: 21px 0px;
+    color: #f8dbdb;
+}
+/* header_down end */
+/* header end */
+
+/* main start */
+main {
+    padding: 10px 0;
+}
+
+/* aside_left start */
+
+.aside_left {
+    padding: 8px 8px 8px 13px;
+}
+
+.aside_nav {
+    display: flex;
+    flex-direction: column;
+}
+/* aside_left end */
+/* main end */
