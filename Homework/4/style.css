@@ -15,12 +15,14 @@ body {
 
 .header {
     display: flex;
+    align-items: center;
     flex-direction: column;
 }
 
 /* header_up start */
 .header_up {
     display: flex;
+    width: 970px;
     justify-content: space-between;
     align-items: center;
     height: 56px;
@@ -67,6 +69,8 @@ body {
 /* header_down start */
 
 .header_down {
+    display: flex;
+    justify-content: center;
     padding: 18px;
     width: 100%;
     background-color: #ff0000;
@@ -74,6 +78,7 @@ body {
 
 .header_down h1 {
     font-size: 32px;
+    width: 970px;
     margin: 21px 0px;
     color: #f8dbdb;
 }
@@ -84,6 +89,19 @@ body {
 main {
     padding: 10px 0;
 }
+
+.main_container {
+    width: 970px;
+}
+
+/* section_1 start*/
+
+.section_1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
 
 /* aside_left start */
 
@@ -96,4 +114,7 @@ main {
     flex-direction: column;
 }
 /* aside_left end */
+/* section_1 end* */
+
+
 /* main end */
